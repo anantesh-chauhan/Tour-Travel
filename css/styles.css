@@ -367,6 +367,10 @@ body{
     flex: 1 1 30rem;    
 }
 
+img{
+    max-width: 100%;
+}
+
 .packages .box-container .box img{
     height: 25rem;
     width: 100%; 
@@ -409,6 +413,60 @@ body{
     color: #666;
     text-decoration: line-through ;
 }
+/* gallary css starts */
+.gallery .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.gallery .box-container .box{
+   overflow: hidden;
+   box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+   border: 1rem solid #fff;
+   border-radius: .5rem;
+   flex: 1 1 30rem;
+   height: 25rem;
+   position: relative;
+}
+
+.gallery .box-container .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   
+    
+}
+
+.gallery .box-container .box .content{
+    position: absolute ;
+    top: -100%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background: rgba(0,0,0,.7);
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+.gallery .box-container .box:hover .content{
+    top:0;
+    
+}
+
+.gallery .box-container .box .content h3{
+    font-size: 2.5rem;
+    color: var(--orange);
+}
+
+.gallery .box-container .box .content p{
+    font-size: 1.5rem;
+    color: #eee;
+    padding: .5rem 0;
+}
+
+/* gallery css ends  */
 
 
 /* services css */
@@ -447,59 +505,7 @@ body{
 .services .box-container .box:hover{
    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
 }
-
-.gallery .box-container{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-}
-
-.gallery .box-container .box{
-   overflow: hidden;
-   box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
-   border: 1rem solid #fff;
-   border-radius: .5rem;
-   flex: 1 1 30rem;
-   height: 25rem;
-   position: relative;
-}
-
-.gallery .box-container .box img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    
-}
-
-.gallery .box-container .box .content{
-    position: absolute ;
-    top: -100%;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    background: rgba(0,0,0,.7);
-    padding: 2rem;
-    padding-top: 5rem;
-}
-
-.gallery .box-container .box:hover .content{
-    top:0;
-    
-}
-
-.gallery .box-container .box .content h3{
-    font-size: 2.5rem;
-    color: var(--orange);
-}
-
-.gallery .box-container .box .content p{
-    font-size: 1.5rem;
-    color: #eee;
-    padding: .5rem 0;
-}
-
-/* gallery css ends  */
+/* service css end */
 
 /* review css starts  */
 
@@ -646,7 +652,9 @@ body{
 
  }
 
-
+i{
+    margin-right: 10px;
+}
 
 
 /* media queries */
@@ -709,3 +717,10 @@ body{
     }
 
 }
+
+/* gallery stylings */
+
+
+/* .gallery .bos{
+    min-width: 100%;
+} */
