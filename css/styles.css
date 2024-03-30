@@ -5,10 +5,11 @@
 }
 
 *{
-    font-family: 'Nuito',sans-serif;
+    font-family: 'Nunito',sans-serif;
     margin: 0;
     padding: 0;
     box-sizing:border-box ;
+    text-transform: capitalize;
     outline: none;
     border: none;
     text-decoration: none;
@@ -126,6 +127,8 @@ header .search-bar-container.active{
 
 header .search-bar-container #search-bar{
     width:100%;
+
+
     padding: 1rem;
     text-transform: none;
     color: #333;
@@ -189,7 +192,7 @@ body{
     font-size: 1.7rem;
     color: #333;
     margin: .6rem 0;
-    border: .1rem solid rgba(0,0,0,0.3);
+    border: .1rem solid rgba(0,0,0,.3);
     text-transform: none;
 }
 
@@ -594,6 +597,16 @@ img{
 
 /* contact css ends  */
 
+/* brand  css  */
+.brand-container{
+    text-align: center;
+}
+.brand-container .brand-slider .swiper-wrapper .swiper-slide img{
+    height: 25%;
+    width: 25%;
+    object-fit: cover;
+}
+
 /* footer css */
 
 .footer{
@@ -602,7 +615,7 @@ img{
 }
 
 .footer .box-container{
-    display: block;
+    display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;  
 }
@@ -613,8 +626,8 @@ img{
 }
 
 .footer .box-container .box h3{
-    padding: .7rem 0;
     font-size: 2.5rem;
+    padding: .7rem 0;
     color: #fff;
 }
 
