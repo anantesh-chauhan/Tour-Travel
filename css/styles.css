@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 :root{
-    --orange:#ffa500;
+    --red:#f31a1a;
 }
 
 *{
@@ -17,7 +17,7 @@
 }
 
 *::selection{
-    background: var(--orange);
+    background: var(--red);
     color: #fff;
 }
 
@@ -40,7 +40,7 @@ section{
 .heading span{
     font-size: 3.5rem;
     background: rgba(255,165,0,0.2);
-    color: var(--orange);
+    color: var(--red);
     border-radius: .5rem;
     padding: .2rem 1rem;
 }
@@ -53,10 +53,10 @@ section{
 .btn{
     display: inline-block;
     margin-top: 1rem;
-    background:var(--orange);
+    background:var(--red);
     color: #fff;
     padding: .8rem 3rem;
-    border: .2rem solid var(--orange);
+    border: .2rem solid var(--red);
     cursor: pointer;
     font-size: 1.7rem;
 
@@ -64,7 +64,7 @@ section{
 
 .btn:hover{
     background: rgba(255,165,0,0.2);
-    color:var(--orange) ;  
+    color:var(--red) ;  
 }
 
 header{
@@ -84,9 +84,10 @@ header .logo{
     font-weight: bolder;
     color: #fff;
     text-transform: uppercase;
+    font-style: italic;
 }
 header .logo span{
-    color: var(--orange);
+    color: var(--red);
 }
 header .navbar a{
      color: #fff;
@@ -95,7 +96,7 @@ header .navbar a{
 
 }
 header .navbar a:hover{
-    color: var(--orange);
+    color: var(--red);
 
 }
 header .icon i{
@@ -105,7 +106,7 @@ header .icon i{
     margin-right: 2rem;
 }
 header .icon i:hover{
-    color: var(--orange);
+    color: var(--red);
 }
 header .search-bar-container{
     position: absolute;
@@ -145,7 +146,7 @@ header .search-bar-container label{
 }
 
 header .search-bar-container label:hover{
-    color: var(--orange);
+    color: var(--red);
 }
 
 body{
@@ -197,7 +198,7 @@ body{
 }
 
 .login-form-container form .box:focus{
-    background-color: var(--orange);
+    background-color: var(--red);
 }
 
 .login-form-container form #remember{
@@ -221,7 +222,7 @@ body{
 }
 
 .login-form-container form p a{
-    color: var(--orange);
+    color: var(--red);
 }
 
 .login-form-container form p a:hover{
@@ -311,7 +312,7 @@ body{
 }
 
 .home .controls .vid-btn.active{
-   color: var(--orange);
+   color: var(--red);
 }
 
 .book .row{
@@ -391,7 +392,7 @@ img{
 }
 
 .packages .box-container .box .content h3 i{
-    color:var(--orange);
+    color:var(--red);
 }
 
 .packages .box-container .box .content p{
@@ -402,7 +403,7 @@ img{
 
 .packages .box-container .box .content .stars i{
     font-size:1.7rem;
-    color:var(--orange);
+    color:var(--red);
 }
 
 .packages .box-container .box .content .price{
@@ -460,7 +461,7 @@ img{
 
 .gallery .box-container .box .content h3{
     font-size: 2.5rem;
-    color: var(--orange);
+    color: var(--red);
 }
 
 .gallery .box-container .box .content p{
@@ -490,7 +491,7 @@ img{
 .services .box-container .box i{
     padding: 1rem;
     font-size: 5rem;
-    color: var(--orange);
+    color: var(--red);
 }
 
 .services .box-container .box h3{
@@ -543,7 +544,7 @@ img{
 }
 
 .review .box .stars i{
-    color:var(--orange);
+    color:var(--red);
     font-size:1.7rem;
 }
 /* revies css ends  */
@@ -645,7 +646,7 @@ img{
 }
 
 .footer .box-container .box a:hover{
-   color: var(--orange);
+   color: var(--red);
    text-decoration: underline;
  }
 
@@ -661,7 +662,7 @@ img{
 }
 
 .footer .credit span{
-    color:var(--orange);
+    color:var(--red);
 
  }
 
