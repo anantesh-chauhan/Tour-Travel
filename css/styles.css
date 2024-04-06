@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 :root{
-    --red:#f10505;
+
+    --red:#f31a1a;
+
 }
 
 *{
@@ -84,6 +86,7 @@ header .logo{
     font-weight: bolder;
     color: #fff;
     text-transform: uppercase;
+    font-style: italic;
 }
 header .logo span{
     color: var(--red);
