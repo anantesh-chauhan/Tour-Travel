@@ -372,9 +372,12 @@ body{
     padding: 2rem;
     box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
     border-radius: .5rem;
-    background-color: rgb(126, 218, 214);
+    background-color: rgb(238, 91, 154);
+    /* color: #eee; */
 
 }
+
+
 
 .book .row form .inputBox{
   padding: .5rem 0;
